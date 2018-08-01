@@ -2,7 +2,7 @@
     "name": "scoolen/tutorial",
     "description": "Tutorial",
     "require": {
-        "speakap/sdk" : "*"
+        "speakap/sdk" : "dev-master"
     },
     "minimum-stability": "dev",
     "repositories": [

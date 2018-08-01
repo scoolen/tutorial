@@ -1,11 +1,16 @@
 <?php
 
-include 'vendor/autoload.php';
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 
-use Speakap\SDK as SpeakapSDK;
+require 'vendor/autoload.php';
 
-$signedRequest = new SpeakapSDK\SignedRequest('bla', 'bla');
+$signedRequest = new \Speakap\SDK\SignedRequest('bla', 'bla');
+
+echo 'Bla';
 
 if (!$validator->validateSignature($_POST)) {
     die('Invalid signature');
 }
+
+
