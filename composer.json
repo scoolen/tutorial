@@ -1,0 +1,14 @@
+{
+    "name": "scoolen/tutorial",
+    "description": "Tutorial",
+    "require": {
+        "speakap/sdk" : "*"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SpeakapBV/Speakap-SDK.git"
+        }
+    ]
+}
