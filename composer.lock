@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "726f6e21feb4811862466fea5505613a",
+    "content-hash": "caa990b7f1ed9f38de6898edb350755d",
     "packages": [
         {
             "name": "speakap/sdk",
@@ -51,7 +51,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "speakap/sdk": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
